@@ -2,6 +2,6 @@
 
 public class CategoriesDto ( int categoryId , String categoryName )
 {
-    public int CategoryId { get; set; }
-    public string CategoryName { get; set; }
+    public int CategoryId { get; init; } = categoryId;
+    public string CategoryName { get; init; } = categoryName;
 }
